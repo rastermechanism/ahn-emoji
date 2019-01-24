@@ -1,0 +1,23 @@
+{
+  "name": "ahn-emoji",
+  "version": "1.0.0",
+  "description": "\"Emoji by www.assignmenthelp.net. A test based emoji from AHN. This is dead simple work not ready for any production\"",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Augment Systems",
+  "license": "MIT",
+  "keywords": ["AHN module"],
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/emojione": "^2.2.3",
+    "emojione": "^4.0.0"
+  }
+}
